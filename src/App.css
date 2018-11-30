@@ -1,32 +1,130 @@
-.App {
-  text-align: center;
+.nav {
+  height: 4rem;
+  background-color: #2A4D5A;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-radius: 0px 0px 25px 25px;
+  display: flex;
+  justify-content: space-evenly;
+  color: #EA882C
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.navItem {
+  margin: 4rem;
+  margin-top: 0rem;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #F79021;
+}
+
+.footer {
+  background-color: #2A4D5A;
+  color: white;
+  height: 5rem;
+  margin-top: 6.7rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 15px 15px 0px 0px;
+  font-family: 'Patrick Hand', cursive;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.search {
+  height: 1.25rem;
+  margin-top: 1rem;
+  width: 15rem;
+}
+
+.searchBar {
+  display: flex;
+}
+
+.searchText {
+  position: absolute;
+  left: 45rem;
+  bottom: 47.5rem;
+}
+
+.students{
+  padding-left: 7rem;
+  padding-top: 7rem;
+  padding-right: 3rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 22vh;
+  flex-wrap: wrap;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.studentBody {
+  margin-top: 10rem;
+  height: 50vh;
+  background-color: #FFF7EC;
+  font-family: 'Patrick Hand', cursive;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#studentHeader {
+  position: absolute;
+  left: 4rem;
+  font-size: 45px;
 }
+.individual {
+  height: 50vh;
+}
+
+.singleBody {
+  height: 50vh;
+  background-color: #FBA000;
+}
+
+.image {
+  height: 250px;
+  width: auto;
+  border-radius: 125px;
+}
+.imageCont{
+  position: absolute;
+  top: 18rem;
+  left: 60rem;
+}
+
+.person {
+  font-size: 75px;
+  position: absolute;
+  left: 5rem;
+  bottom: 26rem;
+}
+
+.personInfo {
+  font-size: 30px;
+  position: absolute;
+  top: 21rem;
+  left: 10rem;
+}
+
+.back {
+  height: 5rem;
+  width: 15rem;
+  position: absolute;
+  bottom: 38rem;
+  left: 10rem;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+li:hover {
+  cursor:pointer;
+ }
+
+ button:hover {
+  cursor:pointer;
+ }
