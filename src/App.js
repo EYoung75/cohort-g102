@@ -16,7 +16,6 @@ class App extends Component {
   }
 
   handleStudent = (e) => {
-    console.log(e.target.id)
     this.setState({student: e.target.id})
   }
 
@@ -28,7 +27,6 @@ class App extends Component {
     const response = await fetch("https://g102-database.herokuapp.com/")
     const json = await response.json()
     this.setState({students: json})
-    console.log(this.state.students)
   }
 
   render() {
